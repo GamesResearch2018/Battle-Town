@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+	
+    <title>Battle Town</title>
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Revalia' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+	
+    <script src="/eureca.js"></script>
+    <script src="./js/phaser.min.js" type="text/javascript"></script>
+    <script src="./js/Player.js"></script>
+    <script src="./js/game.js" myName="" type="text/javascript"></script>
+    <script src="./js/pickUps.js"></script>
+    <script src="./js/setName.js"></script>
+	
+    <style type="text/css">
+        .gameDiv {
+            height: 800px;
+            width: 1200px;
+            background: black;
+            position: absolute;
+            text-align: center;
+        }
+        
+        .gameDiv strong {
+            color: white;
+        }
+        
+        .gameDiv h1 {
+            font-family: 'Revalia', cursive;
+            color: green;
+            font-size: 80px;
+        }
+        
+        .gameDiv p {
+            color: white;
+        }
+        
+        .smallDiv {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .smallDiv ul {
+            font-family: 'Montserrat', sans-serif;
+            list-style: none;
+            color: white;
+            text-align: left;
+        }
+        
+        #playDiv {
+            cursor: crosshair;
+        }
+        
+        button {
+            background-color: #000000;
+            color: #FFFFFF;
+            border-radius: 10px;
+            width: 90px;
+            height: 40px;
+        }
+        
+        p {
+            color: white;
+            
+        }
+        
+        
+        .floatDiv p {
+                        font-family: 'Montserrat', sans-serif;
+
+            margin: 0;
+        }
+        
+        .bigtext {
+            font-size:30px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class='gameDiv'>
+        <h1>BATTLE TOWN</h1>
+        <img src="./assets/logo/zombie.png">
+        <p></span></p>
+        <div class="smallDiv">
+            <ul>
+                <li>Instructions:</li>
+                <li>W,A,S,D to move. </li>
+                <li>Click to shoot. </li>
+                <li>TAB to see scoreboard. </li>
+                <li>Avoid rockets.</li>
+            </ul>
+        </div>
+        <form id="myForm">
+            <strong>Enter a username:</strong>
+            <br>
+            <input type="text" id="username" />
+            <br>
+            <br>
+            <button id="play">Play</button>
+        </form><br>
+    <div class="floatDiv">
+        <p></p>
+        <p></p>
+        <p></p>
+        </div>
+
+    </div>
+    <div id='playDiv'>
+
+    </div>
+
+    <script>
+    </script>
+</body>
+
+</html>
